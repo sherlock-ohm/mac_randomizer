@@ -26,3 +26,5 @@ sudo mac_randomizer
 ```
 
 # Feel free to add this to your crontab if you choose!
+
+##### Credits to the creator of macchanger!
