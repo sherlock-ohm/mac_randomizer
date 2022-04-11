@@ -18,3 +18,11 @@ cd mac_randomizer
 chmod +x mac_randomizer
 sudo mv mac_randomizer /bin
 ```
+
+### Usage
+
+```bash
+sudo mac_randomizer
+```
+
+# Feel free to add this to your crontab if you choose!
