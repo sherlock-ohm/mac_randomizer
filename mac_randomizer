@@ -1,0 +1,12 @@
+#! /bin/bash
+
+sudo echo ""
+adaptor=$(ifconfig | grep "=" | cut -d ":" -f 1)
+
+for i in $adaptor; do 
+        echo "Adaptor: $i"
+        sudo ifconfig $i down
+        sudo macchanger -rb $i
+        sudo ifconfig $i up
+        echo ""
+done
