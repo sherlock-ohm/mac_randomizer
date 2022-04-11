@@ -10,3 +10,11 @@ macchanger
 sudo apt install macchanger
 ```
 
+### Installation
+
+```bash
+git clone https://github.com/sherlock-ohm/mac_randomizer.git
+cd mac_randomizer
+chmod +x mac_randomizer
+sudo mv mac_randomizer /bin
+```
