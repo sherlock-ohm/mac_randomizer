@@ -16,6 +16,7 @@ sudo apt install macchanger
 git clone https://github.com/sherlock-ohm/mac_randomizer.git
 cd mac_randomizer
 chmod +x mac_randomizer
+sudo chown root:root mac_randomizer
 sudo mv mac_randomizer /bin
 ```
 
