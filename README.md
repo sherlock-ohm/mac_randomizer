@@ -3,7 +3,7 @@ A small script to randomize all of your MAC Addresses!
 
 This script requires root privileges!
 
-### Requirements:
+### Requirements: This has been tested on kali linux but needs to be modified for some other versions of linux.
 
 macchanger
 ```bash
